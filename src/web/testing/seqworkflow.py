@@ -143,5 +143,5 @@ except requests.exceptions.RequestException as e:
     print(f"An error occurred: {e}")
 
 print(f"Status Code: {response.status_code}")
-print("Response JSON:", response.json())
+print("Response JSON:", response.json()) 
 
