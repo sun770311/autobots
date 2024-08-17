@@ -1,0 +1,10 @@
+pydantic
+fastapi
+typer
+uvicorn
+arxiv
+pyautogen==0.2.0b5
+websockets
+docker
+packaging
+httpx
