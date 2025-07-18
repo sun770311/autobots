@@ -5,7 +5,7 @@ try:
     import llmlingua
 except ImportError:
     IMPORT_ERROR = ImportError(
-        "LLMLingua is not installed. Please install it with `pip install pyautogen[long-context]`"
+        "LLMLingua is not installed. Please install it with `pip install ag2[long-context]`"
     )
     PromptCompressor = object
 else:
